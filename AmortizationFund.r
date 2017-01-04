@@ -40,4 +40,4 @@ renta <- c(R, recursive=TRUE)
 
 tabla <- cbind(renta, tabla)
 tabla <- rbind(tabla, totales)
-colnames(tabla)<-c("Renta","Interes","Cantidad Acumulada", "Saldo Final")
+colnames(tabla) <- c("Rent","Interest","Accumulated Amount", "Closing Balance")
